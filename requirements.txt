@@ -1,0 +1,22 @@
+scapy
+
+
+sudo apt install python3-pip
+pip3 install scapy
+
+
+⚙️ 2. Ubuntu System Dependencies (non-Python)
+
+sudo apt update && sudo apt install -y \
+aircrack-ng \
+xterm \
+gnome-terminal \
+python3-scapy \
+network-manager \
+ufw \
+hostapd \
+lighttpd \
+isc-dhcp-server \
+git \
+dbus-x11 \
+net-tools

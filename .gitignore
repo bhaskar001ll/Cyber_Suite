@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# database & logs
+*.db
+*.sqlite
+packet_log.txt
+secrets/
+*.key
+*.pem
+.env
+
+# IDE / OS
+.vscode/
+*.swp
+.DS_Store
+
+# project extras
+venv/
+dist/
+build/
